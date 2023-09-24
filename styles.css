@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(248, 177, 177);
+
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+.title-bar {
+    height: 2em;
+    width: 100%;
+}
+.grid {
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: repeat(16, 2em);  /* 4 columns, each 5em wide */
+    grid-template-rows: repeat(16, 2em);  /* 4 rows, each 5em tall */
+    gap: 0px 0px;  /* No gaps between rows and columns */
+    
+
+}
+.grid div:hover {
+    background-color: black;
+}
+
